@@ -1,0 +1,185 @@
+################################### TASK 0 ###################################
+Current cache:
+Current cache:
+A: Hello
+B: World
+C: Holberton
+Hello
+World
+Holberton
+None
+Current cache:
+A: Hello
+B: World
+C: Holberton
+Current cache:
+A: Street
+B: World
+C: Holberton
+D: School
+E: Battery
+Street
+################################### TASK 1 ###################################
+Current cache:
+A: Hello
+B: World
+C: Holberton
+D: School
+DISCARD: A
+Current cache:
+B: World
+C: Holberton
+D: School
+E: Battery
+DISCARD: B
+Current cache:
+C: Street
+D: School
+E: Battery
+Current cache:
+C: Street
+D: School
+E: Battery
+F: Mission
+################################### TASK 2 ###################################
+Current cache:
+A: Hello
+B: World
+C: Holberton
+D: School
+DISCARD: D
+Current cache:
+A: Hello
+B: World
+C: Holberton
+E: Battery
+DISCARD: E
+Current cache:
+A: Hello
+B: World
+C: Street
+Current cache:
+A: Hello
+B: World
+C: Street
+F: Mission
+DISCARD: F
+Current cache:
+A: Hello
+B: World
+C: Street
+G: San Francisco
+################################### TASK 3 ###################################
+Current cache:
+A: Hello
+B: World
+C: Holberton
+D: School
+World
+DISCARD: A
+Current cache:
+B: World
+C: Holberton
+D: School
+E: Battery
+DISCARD: C
+Current cache:
+B: World
+C: Street
+D: School
+E: Battery
+None
+World
+Street
+DISCARD: D
+Current cache:
+B: World
+C: Street
+E: Battery
+F: Mission
+DISCARD: E
+Current cache:
+B: World
+C: Street
+F: Mission
+G: San Francisco
+DISCARD: B
+Current cache:
+C: Street
+F: Mission
+G: San Francisco
+H: H
+DISCARD: C
+Current cache:
+F: Mission
+G: San Francisco
+H: H
+I: I
+DISCARD: F
+Current cache:
+G: San Francisco
+H: H
+I: I
+J: J
+DISCARD: G
+Current cache:
+H: H
+I: I
+J: J
+K: K
+################################### TASK 4 ###################################
+Current cache:
+A: Hello
+B: World
+C: Holberton
+D: School
+World
+DISCARD: B
+Current cache:
+A: Hello
+C: Holberton
+D: School
+E: Battery
+DISCARD: E
+Current cache:
+A: Hello
+C: Street
+D: School
+Hello
+None
+Street
+Current cache:
+A: Hello
+C: Street
+D: School
+F: Mission
+DISCARD: F
+Current cache:
+A: Hello
+C: Street
+D: School
+G: San Francisco
+DISCARD: G
+Current cache:
+A: Hello
+C: Street
+D: School
+H: H
+DISCARD: H
+Current cache:
+A: Hello
+C: Street
+D: School
+I: I
+DISCARD: I
+Current cache:
+A: Hello
+C: Street
+D: School
+J: J
+DISCARD: J
+Current cache:
+A: Hello
+C: Street
+D: School
+K: K
