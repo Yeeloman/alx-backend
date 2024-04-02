@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 """task 0"""
-
 BaseCaching = __import__('base_caching').BaseCaching
 
 
