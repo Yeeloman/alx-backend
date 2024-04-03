@@ -1,34 +1,29 @@
-#!/usr/bin/env python3
-"""task 4"""
-
-BaseCaching = __import__('base_caching').BaseCaching
+#!/usr/bin/python3
+""" doc doc doc """
+BaseCaching = __import__("base_caching").BaseCaching
 
 
 class MRUCache(BaseCaching):
-    """ MRUCache
-    """
+    """doc doc doc"""
+
     def __init__(self):
-        """ Initiliaze
-        """
+        """doc doc doc"""
         super().__init__()
-        self.checked = []
+        self.order = []
 
     def put(self, key, item):
-        """ Add an item in the cache
-        """
+        """doc doc doc"""
         if key and item:
             if len(self.cache_data) >= BaseCaching.MAX_ITEMS:
-                lru_key = self.checked.pop()
-                self.cache_data.pop(lru_key)
-                print(f"DISCARD: {lru_key}")
+                removed = self.order.pop()
+                self.cache_data.pop(removed)
+                print("DISCARD: {}".format(removed))
             self.cache_data[key] = item
-            self.checked.append(key)
+            self.order.append(key)
 
     def get(self, key):
-        """ Get an item by key
-        """
+        """doc doc doc"""
         if key in self.cache_data:
-            self.checked.remove(key)
-            self.checked.append(key)
-
+            self.order.remove(key)
+            self.order.append(key)
             return self.cache_data.get(key)
