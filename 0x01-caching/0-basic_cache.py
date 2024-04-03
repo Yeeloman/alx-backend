@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" task 0 """
+""" task 0 in cache module """
 BaseCaching = __import__("base_caching").BaseCaching
 
 
