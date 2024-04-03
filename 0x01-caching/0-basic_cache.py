@@ -1,16 +1,16 @@
 #!/usr/bin/python3
-""" doc doc doc """
+""" task 0 """
 BaseCaching = __import__("base_caching").BaseCaching
 
 
 class BasicCache(BaseCaching):
-    """doc doc doc"""
+    """basic cache class"""
 
     def put(self, key, item):
-        """doc doc doc"""
+        """put the cache in pairs"""
         if key and item:
             self.cache_data[key] = item
 
     def get(self, key):
-        """doc doc doc"""
+        """get the cached values"""
         return self.cache_data.get(key)
