@@ -5,7 +5,7 @@ from flask import Flask, render_template, request
 from flask_babel import Babel
 
 
-class Config:
+class Config(object):
     """config class for flask"""
     """initiate config class"""
     LANGUAGES = ["en", "fr"]
@@ -32,7 +32,7 @@ def get_locale():
 @app.route('/',  strict_slashes=False)
 def index():
     """serving the template"""
-    return render_template('3-index.html')
+    return render_template('4-index.html')
 
 
 if __name__ == '__main__':
